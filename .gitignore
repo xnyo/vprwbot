@@ -1,0 +1,5 @@
+settings.ini
+**/__pycache__
+venv
+.pyenv
+.idea
