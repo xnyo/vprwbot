@@ -29,7 +29,7 @@ $ source .pyenv/bin/activate
 
 INFO:vprw:Ｂｏｔ　ｓｔａｒｔｅｄ！  つャャ
 ```
-3. Run `/setinline` on @BotFather, select your bot and type whatever you want as inline query placeholder
+3. Run `/setinline` on @BotFather, select your bot and type whatever you want as inline query placeholder  
 **NOTE: You should use tmux, screen, nohup, a service or whatever you want to run your bot or it'll stop working
 when you close your ssh terminal window!**
 
