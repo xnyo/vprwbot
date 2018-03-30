@@ -1,6 +1,6 @@
-## vprwbot
-### ａｄｄ　ａ　ｔｏｕｃｈ　ｏｆ　ａｅｓｔｈｅｔｉｃ　ｔｏ　ｙｏｕｒ　ｔｅｌｅｇｒａｍ　ｅｘｐｅｒｉｅｎｃｅ　だ彙っ援中ょ暗ボ威
-This is a simple inline bot to make aesthetic messages
+# vprwbot
+## ａｄｄ　ａ　ｔｏｕｃｈ　ｏｆ　ａｅｓｔｈｅｔｉｃ　ｔｏ　ｙｏｕｒ　ｔｅｌｅｇｒａｍ　ｅｘｐｅｒｉｅｎｃｅ　だ彙っ援中ょ暗ボ威
+> This is a simple inline bot to make aesthetic messages
 
 ### Requirements
 - Python 3.6 (it _should_ work with every other 3.x as well)  
