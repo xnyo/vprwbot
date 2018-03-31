@@ -7,6 +7,7 @@ from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext import Updater, CommandHandler, InlineQueryHandler
 
 from utils import md5, aestheticize
+import constants
 
 # Set up logger
 logging.basicConfig(level=logging.INFO)
@@ -31,11 +32,15 @@ def start_handler(bot, update):
     response_text += aestheticize(emojize(" _in :snake:_"))
     response_text += "\nThis is a little inline python telegram bot i made to " \
                      "aestheticize your telegram messages.\n\n"
-    response_text += emojize(":yellow_heart: *Cool stuff*\n")
+    response_text += emojize(":waning_crescent_moon: *Usage*\n", use_aliases=True)
+    response_text += "`@{} your message`\n".format(bot.username)
+    response_text += emojize(" " * 18 + ":point_down:\n", use_aliases=True)
+    response_text += "`" + aestheticize("your message") + "`"
+    response_text += emojize("\n\n:yellow_heart: *Cool stuff*\n")
     response_text += emojize(":point_right: [My website](https://nyodev.xyz)\n", use_aliases=True)
     response_text += emojize(":point_right: [My GitHub profile](https://github.com/xNyo)\n", use_aliases=True)
-    response_text += emojize(":point_right: [vprw source code](https://github.com/xNyo/vprw)", use_aliases=True)
-    response_text += aestheticize("\n\n_Quante cose al mondo puoi fare. Costruire, inventare..._")
+    response_text += emojize(":point_right: [vprw source code](https://github.com/xNyo/vprwbot)", use_aliases=True)
+    response_text += aestheticize("\n\n_Quante cose al mondo puoi fare..._")
     update.message.reply_text(response_text, parse_mode="markdown", disable_web_page_preview=True)
 
 
@@ -84,7 +89,7 @@ def main():
     Main method
     :return:
     """
-    print(aestheticize("vprw @ 1.0.0", symbols=False))
+    print(aestheticize("vprw @ {}".format(constants.VERSION), symbols=False))
     print(aestheticize("made by nyo", symbols=False))
     print()
 
