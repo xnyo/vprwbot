@@ -1,5 +1,5 @@
 # vprwbot
-## ａｄｄ　ａ　ｔｏｕｃｈ　ｏｆ　ａｅｓｔｈｅｔｉｃ　ｔｏ　ｙｏｕｒ　ｔｅｌｅｇｒａｍ　ｅｘｐｅｒｉｅｎｃｅ　だ彙っ援中ょ暗ボ威
+## Add a touch of aesthetic to your telegram experience だ彙っ援中ょ暗ボ威
 > This is a simple inline bot to make aesthetic messages
 
 ### Requirements
@@ -12,7 +12,7 @@
 
 
 ### If you prefer a boring text version, here you go:
-1. Create a telegram bot with @BotFather and copy the API token  
+1. Create a telegram bot with [@BotFather](https://telegram.me/botfather) and copy the API token  
 2. Run these commands (assuming you're using a linux server)  
 ```bash
 $ git clone ...
@@ -29,21 +29,22 @@ $ source .pyenv/bin/activate
 
 INFO:vprw:Ｂｏｔ　ｓｔａｒｔｅｄ！  つャャ
 ```
-3. Run `/setinline` on @BotFather, select your bot and type whatever you want as inline query placeholder  
+3. Run `/setinline` on [@BotFather](https://telegram.me/botfather), select your bot and type whatever you want as inline query placeholder  
 **NOTE: You should use tmux, screen, nohup, a service or whatever you want to run your bot or it'll stop working
 when you close your ssh terminal window!**
 
 ### Usage
-This bot has only a `/start` command with general information.  
-To make your messages ａｅｓｔｈｅｔｉｃ　タくラ, use it as an inline bot.  
-A live example of this bot is available at @vprwbot.  
+- This bot has only a `/start` command, with general information about the bot.  
+- To make your messages _aesthetic　タくラ_, use it as an inline bot.  
+
+### Live example (@vprwbot)
+A live example of this bot is available at [@vprwbot](https://telegram.me/vprwbot). 
 Type this in any chat:  
 ```
 @vprwbot lorem ipsum
 ```
-And you'll receive different ａｅｓｔｈｅｔｉｃ　王維穏 variants of your messages.  
-Click the one you like and ｆｅｅｌ　ｔｈｅ　ａｅｓｔｈｅｔｉｃ　ｉｎ　ｙｏｕｒ　ｃｈａｔ　タ無コィヤゼ.  
-ｓｉｍｐｌｅ　ａｓ　ｔｈａｔ　唄佳ア (:new_moon_with_face:)  
+And you'll receive different _aesthetic　王維穏_ variants of your messages.  
+Click the one you like and _feel the aesthetic in your chat　タ無コィヤゼ_.  
 
 ### License
 MIT. Check the `LICENSE` file for more information.
