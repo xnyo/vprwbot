@@ -1,4 +1,7 @@
 ## vprwbot
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3a7eab0f4e1429189849fea7ca1cca9)](https://app.codacy.com/app/xNyo/vprwbot?utm_source=github.com&utm_medium=referral&utm_content=xNyo/vprwbot&utm_campaign=badger)
+
 ### Add a touch of aesthetic to your telegram experience だ彙っ援中ょ暗ボ威
 This is a simple inline bot to make aesthetic messages
 
