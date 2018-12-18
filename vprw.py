@@ -22,6 +22,7 @@ CONFIG = {
 def start_handler(bot, update):
     """
     /start command handler
+
     :param bot:
     :param update:
     :return:
@@ -47,6 +48,7 @@ def start_handler(bot, update):
 def inline_query_handler(bot, update):
     """
     Inline query handler
+
     :param bot:
     :param update:
     :return:
@@ -77,6 +79,7 @@ def inline_query_handler(bot, update):
 def error(bot, update, error):
     """
     Error handler
+
     :param bot:
     :param update:
     :param error:
@@ -88,6 +91,7 @@ def error(bot, update, error):
 def main():
     """
     Main method
+
     :return:
     """
     print(aestheticize("vprw @ {}".format(constants.VERSION), symbols=False))

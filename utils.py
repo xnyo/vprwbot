@@ -7,6 +7,7 @@ from constants import AESTHETIC_LETTERS, AESTHETIC_SYMBOLS
 def md5(s):
     """
     Calculates the md5 hash of a string
+
     :param s: input string
     :return: md5 of the given string, as `str`
     """
@@ -18,6 +19,7 @@ def md5(s):
 def clamp(value, min_, max_):
     """
     Clamps `value` between `min_` and `max_`
+
     :param value: input value
     :param min_: minimum
     :param max_: maximum
@@ -29,6 +31,7 @@ def clamp(value, min_, max_):
 def aestheticize(s, spaced=False, symbols=True):
     """
     A E S T H E T I C I Z E S  a string
+
     :param s: input string
     :param spaced: if `True`, put additional spaces between each letter
     :param symbols: if `True`, append some aesthetic symbols to the string
