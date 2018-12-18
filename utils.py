@@ -40,3 +40,13 @@ def aestheticize(s, spaced=False, symbols=True):
         final_string += "  " * (2 if spaced else 1 if s else 0)
         final_string += joiner.join(random.choice(AESTHETIC_SYMBOLS) for _ in range(clamp(len(s) // 5, min_=3, max_=7)))
     return final_string
+
+
+def upperlower(s):
+    """
+    ReTuRnS S LiKe tHiS
+
+    :param s: input string
+    :return: S BuT LiKe tHiS
+    """
+    return "".join([x.upper() if i % 2 == 0 else x.lower() for i, x in enumerate(s)])

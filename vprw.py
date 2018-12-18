@@ -6,7 +6,7 @@ from emoji import emojize
 from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext import Updater, CommandHandler, InlineQueryHandler
 
-from utils import md5, aestheticize
+from utils import md5, aestheticize, upperlower
 import constants
 
 # Set up logger
@@ -61,6 +61,7 @@ def inline_query_handler(bot, update):
         aestheticize(query.upper(), spaced=True),
         aestheticize(query.lower()),
         aestheticize(query.lower(), spaced=True),
+        upperlower(query)
     ]
 
     # Send results
