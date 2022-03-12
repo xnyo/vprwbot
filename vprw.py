@@ -63,7 +63,9 @@ def inline_query_handler(bot, update):
         aestheticize(query.upper(), spaced=True),
         aestheticize(query.lower()),
         aestheticize(query.lower(), spaced=True),
-        upperlower(query)
+        upperlower(query),
+        "|".join(query),
+        query.replace("r", "v").replace("R", "V")
     ]
 
     # Send results
