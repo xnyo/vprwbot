@@ -3,5 +3,6 @@ version: '3'
 services:
   vprwbot:
     build: .
+    restart: unless-stopped
     environment:
       - BOT_TOKEN    
